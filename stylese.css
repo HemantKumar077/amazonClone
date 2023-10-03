@@ -1,0 +1,23 @@
+h1{
+    color: aqua;
+    background-color: blue;
+    text-align: center;
+}
+#ram{
+    height: 60px;
+    color: white;
+    background-color:black;
+
+}
+#one{
+    color: orange;
+    font-size: 25px;
+}
+a{
+    margin-right: 150px;
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: orange;
+}

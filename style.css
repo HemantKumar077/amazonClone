@@ -1,0 +1,50 @@
+
+body{
+    background-color:rgba(44, 210, 127, 0.693);
+    
+}
+
+#ll{
+    color:rgb(206, 21, 55);
+    text-align: center;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 45;
+}
+    button{
+    color: rgb(248, 0, 41);
+    background-color: aqua;
+
+}
+#heading1{
+    color: aquamarine;
+    font-weight: normal;
+}
+#heading1{
+    color: rgb(40, 45, 199);
+    font-weight: 500;
+}
+#heading2{
+    color: rgb(50, 183, 59);
+
+}
+#heading3{
+    color: rgb(193, 136, 85);
+}
+#heading4{
+    color: rgb(131, 127, 255);
+}
+.ram{
+    color: rgb(24, 100, 100);
+    font-size: larger;
+}
+p{
+    text-align:left;
+}
+a{
+    text-decoration: none;
+}
+#pera{
+    text-decoration:line-through;
+    
+}

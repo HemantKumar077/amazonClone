@@ -1,0 +1,19 @@
+.loder{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid rgb(86, 195, 199);
+    border-top: 20px solid rgb(215, 207, 53);
+    animation: ram 2.5s ease-in 0s infinite normal;
+
+
+    
+}
+@keyframes ram{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

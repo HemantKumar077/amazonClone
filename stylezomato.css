@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-new1{
+    width: auto;
+    height: 570px;
+    background-image: url("zomatoimage.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.front{
+    font-size: 5.80rem;
+    color: white;
+    font-weight: 800;
+   
+}
+.pre{
+    font-size: 3rem;
+    color: white;
+    font-weight: 400;
+    margin-inline-end: 40px;
+    margin-inline-start: 40px;
+   
+}
+
+
+
+
+
+

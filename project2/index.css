@@ -1,0 +1,498 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: #e3efde;
+}
+header{
+    height: 55px;
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logocontainer{
+}
+.logo{
+    width: 80px;
+    height: 20px;
+    background-size: cover;
+}
+.logo img{
+    width: 100%;
+
+}
+.explore{
+    width: 80px;
+    display: flex;
+    white-space: nowrap;
+    color: #f0f0f0;
+    font-size: 13px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.explore-sub{
+    width:65px
+}
+.explore img{
+    width: 10px;
+    margin: 0;
+    height: 10px;
+   
+    
+}
+.icon-span{
+    color: #ffe500;
+    
+
+}
+.search-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    max-height: 300px;
+    width: 400px;
+    height: 38px;
+    margin: 0px 10px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 0px 10px;
+    box-shadow: -1px -1px 1px 1px  rgb(0,0,0.1),
+    1px 1px 1px 1px  rgb(0,0,0.1);
+}
+.search-container input{
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    outline: none;
+
+
+}
+.login{
+    background-color: white;
+    padding: 7px 40px;
+    font-size: 18px;
+    margin: 0px 20px;
+}
+.login a{
+    text-decoration: none;
+    color: #2874f0;
+    font-weight: 500;
+}
+.saller a{
+   color: white;
+    font-size:18px;
+    text-decoration: none;
+    
+}
+.saller a:hover{
+    text-decoration: underline;
+}
+.more a{
+    color: white;
+     font-size:18px;
+     text-decoration: none;
+     margin: 0px 20px;
+     
+ }
+ .more a:hover{
+     text-decoration: underline;
+ }
+ .cart a{
+    color: white;
+     font-size:18px;
+     text-decoration: none;
+     margin: 0px 20px;
+     
+ }
+ .cart a:hover{
+     text-decoration: underline;
+ }
+ .main-product{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width: auto;
+    height: 151px;
+    margin : 10px 10px;
+ }
+
+ .main-product p{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 560;
+ }
+ .img1{
+    padding: 16px 16px 16px 24px;
+    margin: 0px 0px 4px;
+ }
+ .back-img{
+    background-image: url("flipfront.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    margin: 10px 10px;
+ }
+ .shop-new{
+    width: auto;
+    height: 80px;
+    margin: 0px 10px;
+    align-items: center;
+    background-color: white;
+ }
+ #top{
+   margin-top: 20px;
+ }
+
+   .shop-new p{
+    font-size: 25px;
+    display: flex;
+    margin:20px;
+    align-items: center;
+
+ }
+ .shop-join{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 10px;
+    background-color: white;
+ }
+ .shop-box1 p{
+   margin: 10px;
+}
+ .shop-box1{
+    width: 160px;
+    height: 212px;
+    border: 1px solid #ddeddd;
+    border-radius: 7px;
+ }
+ .shop-img1{
+    width: 130px;
+    height: 160px;
+    background-image: url("https://rukminim1.flixcart.com/image/110/110/xif0q/mobile/3/5/l/-original-imaghx9qmgqsk9s4.jpeg?q=80");
+    background-size: cover;
+    margin: 10px 10px;
+ }
+ .shop-box2 p{
+    margin: 10px;
+ }
+ .shop-box2{
+    width: 160px;
+    height: 212px;
+    border: 1px solid #ddeddd;
+    border-radius: 7px;
+ } 
+ .shop-img2{
+    width: 130px;
+    height: 160px;
+    background-image: url("https://rukminim1.flixcart.com/image/80/80/xif0q/mobile/r/o/o/-original-imaghkvuzxkcna4n.jpeg?q=80");
+    background-size: cover;
+    margin: 10px 10px;
+ }
+ .shop-box3 p{
+    margin: 10px;
+ }
+ .shop-box3{
+    width: 160px;
+    height: 212px;
+    border: 1px solid #ddeddd;
+    border-radius: 7px;
+ }
+ .shop-img3{
+    width: 130px;
+    height: 160px;
+    background-image: url("https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/v/5/b/-original-imagzyqkag4djdjf.jpeg?q=70");
+    background-size: cover;
+    margin: 10px 10px;
+ }
+ .shop-box4 p{
+    margin: 10px;
+ }
+ .shop-box4{
+    width: 160px;
+    height: 212px;
+    border: 1px solid #ddeddd;
+    border-radius: 7px;
+
+ }
+ .shop-img4{
+    width: 130px;
+    height: 160px;
+    background-image: url("https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/w/0/6/9-iq8998-9-adidas-cblack-gresix-dovgry-oldgol-original-imagr6rjj8czmfkh.jpeg?q=70");
+    background-size: cover;
+    margin: 10px 10px;
+ }
+ .shop-box5 p{
+    margin: 10px;
+ }
+ .shop-box5{
+    width: 160px;
+    height: 212px;
+    border: 1px solid #ddeddd;
+    border-radius: 7px;
+
+ }
+ .shop-img5{
+    width: 130px;
+    height: 160px;
+    background-image: url("https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/6/l/2/-original-imagrn6dfyqhz3gg.jpeg?q=70");
+    background-size: cover;
+    margin: 10px 10px;
+ }
+ .shop-box6 p{
+    margin: 10px;
+ }
+ .shop-box6{
+    width: 160px;
+    height: 212px;
+    border: 1px solid #ddeddd;
+    border-radius: 7px;
+
+ }
+ .shop-img6{
+    width: 130px;
+    height: 160px;
+    background-image: url("https://rukminim2.flixcart.com/image/612/612/kjhgzgw0-0/t-shirt/x/y/d/xxl-12423306-wrogn-original-imafzfb8zymxzrpz.jpeg?q=70");
+    background-size: cover;
+    margin: 10px 10px;
+ }
+ .shop-img7{
+   width: 130px;
+   height: 160px;
+   background-image: url("https://rukminim2.flixcart.com/image/200/200/xif0q/battery-charger/u/b/p/-original-imagqjh6gg35h7hz.jpeg?q=70");
+   background-size: cover;
+   margin: 10px 10px;
+}
+.shop-img8{
+   width: 130px;
+   height: 160px;
+   background-image: url("https://rukminim2.flixcart.com/image/200/200/jt8yxe80/data-cable/micro-usb-cable/u/y/2/boat-micro-usb-100-original-imafem42xhngwj7z.jpeg?q=70");
+   background-size: cover;
+   margin: 10px 10px;
+}
+.shop-img9{
+   width: 130px;
+   height: 160px;
+   background-image: url("https://rukminim2.flixcart.com/image/200/200/k3rmm4w0/cleaning-kit/z/t/g/gel124-screen-cleaning-gel-kit-stylie-modern-alternatives-original-imafm6qqt9utwnvz.jpeg?q=70");
+   background-size: cover;
+   margin: 10px 10px;
+}
+.shop-img10{
+   width: 130px;
+   height: 160px;
+   background-image: url("https://rukminim2.flixcart.com/image/612/612/xif0q/backpack/r/j/g/-original-imagrdzbwfzfah7n.jpeg?q=70");
+   background-size: cover;
+   margin: 10px 10px;
+}
+.shop-img11{
+   width: 130px;
+   height: 160px;
+   background-image: url("https://rukminim2.flixcart.com/image/612/612/xif0q/waist-bag/7/w/f/actical-fanny-military-waist-bag-hip-bags-belt-bumbag-for-original-imagsffbz6wsckfj.jpeg?q=70");
+   background-size: cover;
+   margin: 10px 10px;
+}
+.shop-img12{
+   width: 130px;
+   height: 160px;
+   background-image: url("https://rukminim2.flixcart.com/image/612/612/xif0q/rucksack/i/z/z/water-resistance-trekking-hiking-travel-bag-rucksack-55-rucksack-original-imagbkqgwfmuxzdx.jpeg?q=70");
+   background-size: cover;
+   margin: 10px 10px;
+}
+#third-shop{
+   color: #369c33;
+}
+.shop-img13{
+   width: 130px;
+   height: 160px;
+   background-image: url("https://rukminim2.flixcart.com/image/612/612/xif0q/perfume/f/s/z/-original-imagrk7msgeegjbs.jpeg?q=70");
+   background-size: cover;
+   margin: 10px 10px;
+}
+.shop-img14{
+   width: 130px;
+   height: 160px;
+   background-image: url("https://rukminim2.flixcart.com/image/612/612/l37mtu80/toothpaste/t/s/k/-original-imagednekabvzuzh.jpeg?q=70");
+   background-size: cover;
+   margin: 10px 10px;
+}
+.shop-img15{
+   width: 130px;
+   height: 160px;
+   background-image: url("https://rukminim2.flixcart.com/image/612/612/xif0q/body-wash/x/t/4/400-body-wash-for-glowing-smooth-skin-enriched-with-aloe-vera-original-imagrgxxygrbqjkh.jpeg?q=70");
+   background-size: cover;
+   margin: 10px 10px;
+}
+.shop-img16{
+   width: 130px;
+   height: 160px;
+   background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/y/a/h/s-crc-den-db-navy-carbonn-cloth-original-imagh2zyhpkchrsy.jpeg?q=70");
+   background-size: cover;
+   margin: 10px 10px;
+}
+.shop-img17{
+   width: 130px;
+   height: 160px;
+   background-image: url("https://rukminim2.flixcart.com/image/832/832/l1pc3gw0/sari/k/g/q/free-bsp1625-banaras-silk-palace-unstitched-original-imagd7kkk39qhsrw.jpeg?q=70");
+   background-size: cover;
+   margin: 10px 10px;
+}
+.shop-img18{
+   width: 130px;
+   height: 160px;
+   background-image: url("https://scontent.fdel25-1.fna.fbcdn.net/v/t39.30808-6/333002966_522775756669645_876584208690830218_n.jpg?stp=dst-jpg_s640x640&_nc_cat=108&ccb=1-7&_nc_sid=49d041&_nc_ohc=qI1ukZlVbvYAX-w5oy8&_nc_ht=scontent.fdel25-1.fna&oh=00_AfCpF_5EmTEHVpJCLDT5XenOczA-Gc04ButFCvl5IWoiUQ&oe=64F93FE2");
+   background-size: cover;
+   margin: 10px 10px;
+}
+.shop-img19{
+   width: 130px;
+   height: 160px;
+   background-image: url("https://rukminim2.flixcart.com/image/312/312/xif0q/refrigerator-new/7/t/g/-original-imagrt58ahjdmdwm.jpeg?q=70");
+   background-size: cover;
+   margin: 10px 10px;
+}
+.shop-img20{
+   width: 130px;
+   height: 160px;
+   background-image: url("https://rukminim2.flixcart.com/image/612/612/jw6pifk0/jean/k/9/v/36-9114351-roadster-original-imafgwhtj96zqzdz.jpeg?q=70");
+   background-size: cover;
+   margin: 10px 10px;
+}
+.shop-img21{
+   width: 130px;
+   height: 160px;
+   background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/jean/q/r/i/-original-imaggyetwvzukyvy.jpeg?q=70");
+   background-size: cover;
+   margin: 10px 10px;
+}
+.shop-img22{
+   width: 130px;
+   height: 160px;
+   background-image: url("https://rukminim2.flixcart.com/image/832/832/xif0q/jean/t/v/j/36-suplpsjogrstthr-mgrey-supernova-inc-original-imaghh4urkgqa5mc.jpeg?q=70");
+   background-size: cover;
+   margin: 10px 10px;
+}
+.shop-img23{
+   width: 130px;
+   height: 160px;
+   background-image: url("https://rukminim2.flixcart.com/image/612/612/xif0q/watch/h/z/p/-original-imagrk9ramgsq9mf.jpeg?q=70");
+   background-size: cover;
+   margin: 10px 10px;
+}
+.shop-img24{
+   width: 130px;
+   height: 160px;
+   background-image: url("https://rukminim2.flixcart.com/image/612/612/xif0q/watch/x/1/j/-original-imagqhvfmafyyzn8.jpeg?q=70");
+   background-size: cover;
+   margin: 10px 10px;
+}
+.shoping-knowladge{
+   width: auto;
+   height: 738px;
+   background-color: #f5f5f5f5;
+   margin: 20px 10px;
+}
+.paragraph{
+  font-weight: 300;
+  padding: 25px;
+
+}
+/** Footer pannel**/
+.firstpannel{
+   height: 40px;
+   background-color: #37475a;
+   color: white;
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+   justify-content: center;
+   font-size: 0.85rem;
+
+}
+hr{
+   margin-top: 5px;
+}
+.pannel2{
+   height: 300px;
+   background-color: #222f3d;
+   color: white;
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+ul h4{
+   margin-top: 20px;
+}
+
+ul a{
+   display: block;
+   color: #dddddd;
+   margin-top: 10px;
+}
+.pannel3{
+   height: 80px;
+   background-color: #222f3d;
+   border-top: 1px solid white;
+}
+.foot-img{
+   background-image: url("amazonlogo.jpg");
+   background-size: cover;
+   height: 40px;
+   width: 140px;
+   margin-left: 45%;
+   margin-top: 40px;
+   
+}
+
+/** Footer pannel**/
+.firstpannel{
+   height: 40px;
+   background-color: #37475a;
+   color: white;
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+   justify-content: center;
+   font-size: 0.85rem;
+
+}
+hr{
+   margin-top: 5px;
+}
+.pannel2{
+   height: 300px;
+   background-color: #222f3d;
+   color: white;
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+ul h4{
+   margin-top: 20px;
+}
+
+ul a{
+   display: block;
+   color: #dddddd;
+   margin-top: 10px;
+}
+.pannel3{
+   height: 80px;
+   background-color: #222f3d;
+   border-top: 1px solid white;
+}
+.foot-img{
+   background-image: url("amazonlogo.jpg");
+   background-size: cover;
+   height: 40px;
+   width: 140px;
+   margin-left: 45%;
+   margin-top: 40px;
+   
+}
+
